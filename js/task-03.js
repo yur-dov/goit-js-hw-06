@@ -15,8 +15,10 @@ const images = [
 
 
 const itemsList = images.map((img) => {
-  return `<li> <img scr = "${img.url}" alt = "${img.alt}"/> </li>`
+  return `<li><img src="${img.url}" alt="${img.alt}" width="500"/></li>`
 }).join("")
+
+console.log(itemsList);
 
 const listRef = document.querySelector('.gallery');
 
