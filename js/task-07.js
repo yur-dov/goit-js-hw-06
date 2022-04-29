@@ -2,7 +2,7 @@
 const sizeRange = document.querySelector('#font-size-control');
 const sizeText = document.querySelector('#text');
 
-
+sizeText.style.fontSize = sizeRange.value + 'px';
 
 
 const transferSize = (event) => {
